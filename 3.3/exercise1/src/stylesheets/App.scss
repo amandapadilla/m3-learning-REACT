@@ -1,0 +1,23 @@
+.App {
+  margin: 100px 400px 0px 400px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  background-color: whitesmoke;
+}
+
+.Header {
+  &__photo {
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  &__name {
+    font-size: 20px;
+    text-align: right;
+  }
+  &__date {
+    text-align: right;
+    color: gray;
+  }
+}
