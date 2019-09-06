@@ -3,7 +3,7 @@ import logo from "../images/amanda.jpg";
 import "../stylesheets/App.scss";
 
 function App() {
-  return (
+  const card = (
     <div className="App">
       <header className="Header">
         <img src={logo} className="Header__photo" alt="mi foto" />
@@ -30,6 +30,7 @@ function App() {
       </header>
     </div>
   );
+  return card;
 }
 
 export default App;
